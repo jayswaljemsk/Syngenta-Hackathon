@@ -1,0 +1,289 @@
+{
+  "rep_id": "REP_0001",
+  "date": "2026-02-15",
+  "territory": "sehore_west_021",
+  "synced_at": "2026-02-15T05:12:00+05:30",
+  "weather_summary": "Clear today. Light rain expected in 48h. Rabi spray window remains open till 17 Feb.",
+  "outlets": [
+    {
+      "outlet_id": "RTL_00001",
+      "name": "Sharma Krishi Kendra",
+      "address": "Main Market, Sehore",
+      "lat": 23.3014,
+      "lng": 77.0722,
+      "priority_score": 0.87,
+      "confidence": "High",
+      "route_position": 1,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Topik 15 WP with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_TOPIK_15WP",
+        "product_name": "Topik 15 WP",
+        "category": "Herbicide",
+        "expected_uplift_inr": 4200,
+        "justification": "Rabi wheat acreage is active in this tehsil; recent sales velocity and low cover make Topik 15 WP the best replenishment conversation."
+      },
+      "estimated_visit_minutes": 25
+    },
+    {
+      "outlet_id": "RTL_00002",
+      "name": "Patel Agri Stores",
+      "address": "Ashta Road, Sehore",
+      "lat": 23.1422,
+      "lng": 77.2382,
+      "priority_score": 0.81,
+      "confidence": "High",
+      "route_position": 2,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Score 250 EC with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_SCO_250EC",
+        "product_name": "Score 250 EC",
+        "category": "Fungicide",
+        "expected_uplift_inr": 3800,
+        "justification": "Mustard and vegetable growers nearby are entering disease-risk window; Score 250 EC has strong recent pull in comparable outlets."
+      },
+      "estimated_visit_minutes": 22
+    },
+    {
+      "outlet_id": "RTL_00003",
+      "name": "Krishna Krishi Seva",
+      "address": "Ichhawar Road, Sehore",
+      "lat": 23.1982,
+      "lng": 77.1384,
+      "priority_score": 0.74,
+      "confidence": "High",
+      "route_position": 3,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Actara 25 WG with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_ACT_25WG",
+        "product_name": "Actara 25 WG",
+        "category": "Insecticide",
+        "expected_uplift_inr": 3200,
+        "justification": "Chickpea pest-risk signals and retailer engagement indicate a timely advisory-led Actara 25 WG recommendation."
+      },
+      "estimated_visit_minutes": 30
+    },
+    {
+      "outlet_id": "RTL_00004",
+      "name": "Vidarbha Agri Mart",
+      "address": "Budhni Mandi Road",
+      "lat": 23.2714,
+      "lng": 76.9185,
+      "priority_score": 0.68,
+      "confidence": "Medium",
+      "route_position": 4,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Kavach 75 WP with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_KAV_75WP",
+        "product_name": "Kavach 75 WP",
+        "category": "Fungicide",
+        "expected_uplift_inr": 2900,
+        "justification": "Potato disease-prevention window is open after cool-weather humidity; Kavach 75 WP is suitable for preventive stocking."
+      },
+      "estimated_visit_minutes": 20
+    },
+    {
+      "outlet_id": "RTL_00005",
+      "name": "Maharashtra Beej Bhandar",
+      "address": "Rehti Road, Sehore",
+      "lat": 23.123,
+      "lng": 77.325,
+      "priority_score": 0.61,
+      "confidence": "Medium",
+      "route_position": 5,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Topik 15 WP with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_TOPIK_15WP",
+        "product_name": "Topik 15 WP",
+        "category": "Herbicide",
+        "expected_uplift_inr": 4200,
+        "justification": "Rabi wheat acreage is active in this tehsil; recent sales velocity and low cover make Topik 15 WP the best replenishment conversation."
+      },
+      "estimated_visit_minutes": 35
+    },
+    {
+      "outlet_id": "RTL_00006",
+      "name": "Annapurna Krishi Centre",
+      "address": "Nasrullaganj Market",
+      "lat": 23.0722,
+      "lng": 77.0118,
+      "priority_score": 0.54,
+      "confidence": "Medium",
+      "route_position": 6,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Score 250 EC with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_SCO_250EC",
+        "product_name": "Score 250 EC",
+        "category": "Fungicide",
+        "expected_uplift_inr": 3800,
+        "justification": "Mustard and vegetable growers nearby are entering disease-risk window; Score 250 EC has strong recent pull in comparable outlets."
+      },
+      "estimated_visit_minutes": 18
+    },
+    {
+      "outlet_id": "RTL_00007",
+      "name": "Sai Krishi Bhandar",
+      "address": "Shyampur, Sehore",
+      "lat": 22.9662,
+      "lng": 76.8803,
+      "priority_score": 0.47,
+      "confidence": "Medium",
+      "route_position": 7,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Actara 25 WG with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_ACT_25WG",
+        "product_name": "Actara 25 WG",
+        "category": "Insecticide",
+        "expected_uplift_inr": 3200,
+        "justification": "Chickpea pest-risk signals and retailer engagement indicate a timely advisory-led Actara 25 WG recommendation."
+      },
+      "estimated_visit_minutes": 15
+    },
+    {
+      "outlet_id": "RTL_00008",
+      "name": "Bharat Agri Solutions",
+      "address": "Jawar Road, Ashta",
+      "lat": 23.3423,
+      "lng": 76.9839,
+      "priority_score": 0.39,
+      "confidence": "Low",
+      "route_position": 8,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Kavach 75 WP with clear stock and usage rationale"
+      ],
+      "recommended_product": {
+        "product_id": "SY_KAV_75WP",
+        "product_name": "Kavach 75 WP",
+        "category": "Fungicide",
+        "expected_uplift_inr": 2900,
+        "justification": "Potato disease-prevention window is open after cool-weather humidity; Kavach 75 WP is suitable for preventive stocking."
+      },
+      "estimated_visit_minutes": 12
+    },
+    {
+      "outlet_id": "RTL_00009",
+      "name": "Jay Kisan Stores",
+      "address": "Doraha, Sehore",
+      "lat": 23.4175,
+      "lng": 77.0357,
+      "priority_score": 0.32,
+      "confidence": "Low",
+      "route_position": 9,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Topik 15 WP with clear stock and usage rationale"
+      ],
+      "recommended_product": null,
+      "estimated_visit_minutes": 10
+    },
+    {
+      "outlet_id": "RTL_00010",
+      "name": "Maharashtra Seeds Depot",
+      "address": "Kothri, Sehore",
+      "lat": 23.18,
+      "lng": 76.9097,
+      "priority_score": 0.28,
+      "confidence": "Low",
+      "route_position": 10,
+      "reason_strings": [
+        "Rabi crop stage is aligned with current advisory window",
+        "Recent POS and inventory signals indicate replenishment opportunity",
+        "Discuss Score 250 EC with clear stock and usage rationale"
+      ],
+      "recommended_product": null,
+      "estimated_visit_minutes": 8
+    }
+  ],
+  "route_polyline": [
+    [
+      23.3014,
+      77.0722
+    ],
+    [
+      23.1422,
+      77.2382
+    ],
+    [
+      23.1982,
+      77.1384
+    ],
+    [
+      23.2714,
+      76.9185
+    ],
+    [
+      23.123,
+      77.325
+    ],
+    [
+      23.0722,
+      77.0118
+    ],
+    [
+      22.9662,
+      76.8803
+    ],
+    [
+      23.3423,
+      76.9839
+    ],
+    [
+      23.4175,
+      77.0357
+    ],
+    [
+      23.18,
+      76.9097
+    ]
+  ],
+  "anomalies": [
+    {
+      "type": "early_pest_emergence",
+      "severity": "medium",
+      "description": "Aphid and disease advisory active in nearby Rabi pockets",
+      "affected_outlets": [
+        "RTL_00003",
+        "RTL_00006"
+      ]
+    },
+    {
+      "type": "demand_spike",
+      "severity": "low",
+      "description": "Herbicide and fungicide demand firming this week",
+      "affected_outlets": [
+        "RTL_00001",
+        "RTL_00008"
+      ]
+    }
+  ]
+}
