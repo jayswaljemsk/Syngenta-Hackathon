@@ -1,0 +1,17 @@
+{
+  "train_date": "2026-01-15",
+  "n_retailers": 3999,
+  "contamination": 0.05,
+  "n_estimators": 200,
+  "anomaly_count": 200,
+  "anomaly_rate": 0.05001250312578145,
+  "pos_feats": [
+    "sales_velocity_7d",
+    "sku_diversity_30d",
+    "txn_count_30d",
+    "mean_basket_size_30d"
+  ],
+  "iso_score_min": -0.1697449270711231,
+  "iso_score_max": 0.20063803325225582,
+  "iso_score_mean": 0.13116343739724573
+}

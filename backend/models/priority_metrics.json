@@ -1,0 +1,66 @@
+{
+  "train_date": "2026-01-15",
+  "n_train_rows": 3182,
+  "n_test_rows": 818,
+  "n_train_territories": 400,
+  "n_test_territories": 100,
+  "label_positive_rate": 0.75625,
+  "test_top1_recall_at_territory": 0.98,
+  "test_top3_recall_at_territory": 1.0,
+  "features": [
+    "days_since_last_visit",
+    "last_purchase_value_inr",
+    "visits_last_90d",
+    "total_sales_180d",
+    "avg_order_value_inr",
+    "pest_pressure_idx",
+    "ndvi_current",
+    "ndvi_delta_14d",
+    "rain_mm_next_48h",
+    "rain_probability_72h",
+    "temp_anomaly_c",
+    "spray_window_open_flag",
+    "mandi_price_anomaly",
+    "weather_volatility_7d",
+    "stock_of_recommended_sku",
+    "days_of_cover",
+    "safety_stock_gap",
+    "recent_stockout_flag",
+    "growth_stage_estimate",
+    "days_to_next_critical_stage",
+    "crop_match_score",
+    "rep_visits_to_outlet_lifetime",
+    "rep_close_rate_at_outlet",
+    "rep_avg_dwell_minutes",
+    "rep_familiarity_score",
+    "day_of_week",
+    "week_of_month",
+    "week_of_season",
+    "is_market_day_flag",
+    "days_since_competitor_visit"
+  ],
+  "model_type": "xgboost.XGBRanker",
+  "objective": "rank:pairwise",
+  "shap_top5": [
+    [
+      "stock_of_recommended_sku",
+      1.0401946306228638
+    ],
+    [
+      "days_of_cover",
+      0.8529071807861328
+    ],
+    [
+      "crop_match_score",
+      0.7454697489738464
+    ],
+    [
+      "total_sales_180d",
+      0.44487264752388
+    ],
+    [
+      "avg_order_value_inr",
+      0.20205436646938324
+    ]
+  ]
+}
